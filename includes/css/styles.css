@@ -1,0 +1,234 @@
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div .clear {
+	clear:both;
+}
+
+
+.navbar {
+	padding:10px 0 15px 5px;
+	border-radius:none;
+}
+
+.navbar a {
+	font-size:1.4em;
+	font-weight:900;
+}
+
+.navbar-brand {
+	padding:10px 0 15px 5px;
+	
+}
+
+#row1>.container>div {
+		padding:0 20px;
+}
+
+#row1 h1 {
+	text-shadow:2px 2px 0px rgba(150, 150, 150, 0.65);
+	font-size:60px;
+	font-weight:900;
+	text-transform: uppercase;
+}
+
+#row1 h2 {
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 15px;
+	padding: 20px;
+}
+
+ul.unstyled {
+	list-style:none;
+	padding:0;
+	
+}
+
+footer a {color:#aaa;}
+
+footer a:hover {
+	text-decoration:none;
+}
+
+
+#copyright {
+	text-align:center;
+	padding
+}
+
+#footer-ul-content {
+	border-bottom: 1px solid #575757;
+	margin: 0 0 10px 0;
+	padding:5px;
+}
+
+
+#row1 {
+	background:	#1dbb90;
+	color: #fff;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+	padding: 75px 0 75px 0;
+}
+
+
+#row2 {
+	background:#FFF;
+}
+
+
+#features {
+	text-align:center;
+	padding: 20px 80px;
+}
+
+#features h3 {
+	font-size:24px;
+}
+
+.panel {
+	margin-top:30px;
+}
+
+
+#row3 {
+	text-align:center;
+	padding: 20px 80px;
+}
+
+#row-last {
+	background:	#1dbb90;
+	
+	color:#fff;
+	
+}
+
+#row-last h2 {
+	text-align:center;
+	padding:15px 0 20px 0;
+}
+
+#row-last p {
+	font-style:italic;
+	padding:10px 20px;
+	font-size:1.2em;
+}
+
+#row-last .col-sm-6 {
+	padding:10px;
+	
+}
+
+#row-last .col-sm-6 h5{
+	text-align:right;
+	margin-right:20px;
+}
+
+#row-last .col-sm-6 img {
+	align: right;
+}
+
+
+.user-logo {
+	padding:10px 30px;
+	
+}
+
+
+
+#myModal {
+	margin-top:60px;
+}
+
+#btn-get-started {
+	width:60%;
+	margin:30px auto;
+	font-size:1.5em;
+	font-weight:900;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top:0px;
+	background:#fff;
+	height:100%;
+}
+
+.carousel-caption {
+	font-size:24px;
+}
+
+.carousel-indicators {
+	bottom:-50px;
+	
+}
+
+.carousel-indicators li {
+	background-colour: #999;
+}
+
+
+.carousel-indicators .active {
+	background-colour: #444;
+}
+
+.carousel-inner {
+	margin-bottom:0px;
+}
+
+.carousel-caption h4 {
+	font-size:32px;
+}
+
+
+#myCarousel .item {
+	height:100%px;
+	width:100%;
+	margin: 20px auto 0px;
+}
+
+.carousel-control.right {
+	background-image:none;
+}
+
+.carousel-control.left {
+	background-image:none;
+	
+}
+
+.carousel-control .icon-prev {
+	font-size:80px;	
+}
+
+.carousel-control .icon-next {
+	font-size:80px;	
+}
+#slide1 {
+	background: transparent;
+	
+}
+
+#slide2 {
+	background: transparent;
+	
+}
+
+#slide3 {
+	background: transparent;
+	
+	
+}
+
+
