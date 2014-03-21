@@ -156,6 +156,13 @@ footer a:hover {
 }
 
 
+.btn-purple {
+	color: #fff;
+	background-color: #B533C6;
+	border-color: #B533C6;
+}
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -242,6 +249,17 @@ footer a:hover {
 {
     text-align: center;
 }
+
+.panel-info>.panel-heading {
+	color:#fff;
+	background-color: #1dbb90;
+	border-color; #1dbb90;
+}
+
+.panel-info>.panel-heading h3 {
+	font-size:24px;
+}
+
 .panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
 .panel-body
 {
@@ -274,7 +292,7 @@ footer a:hover {
 {
     /*Position correctly within container*/
     position: absolute;
-    top: -9px;
+    top: 20px;
     right: 4px;
     z-index: 1; /*Set overflow to hidden, to mask inner square*/
     overflow: hidden; /*Set size and add subtle rounding  		to soften edges*/

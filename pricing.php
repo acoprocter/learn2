@@ -11,8 +11,8 @@
 
     <div class="row" >
       
-        <div class="col-xs-12 col-md-3">
-            <div class="panel panel-primary">
+        <div class="col-xs-12 col-md-4">
+            <div class="panel panel-info">
                 <div class="panel-heading">
                     <h3 class="panel-title">Personal
                         </h3>
@@ -20,49 +20,45 @@
                 <div class="panel-body">
                     <div class="the-price">
                         <h1>
-                            $7<span class="subscript">/mo</span></h1>
-                        <small>3 Sitemaps</small>
+                            3<span class="subscript"></span></h1>
+                        <small>sitemaps</small>
                     </div>
                     <table class="table">
                         <tr>
                             <td>
-                                1 Account
+                                3 Sitemaps
                             </td>
                         </tr>
                         <tr class="active">
                             <td>
-                                1 Project
+                               	Gather Content
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                100K API Access
+                                Sharing
                             </td>
                         </tr>
                         <tr class="active">
                             <td>
-                                100MB Storage
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Custom Cloud Services
-                            </td>
-                        </tr>
-                        <tr class="active">
-                            <td>
-                                Weekly Reports
+                                -
                             </td>
                         </tr>
                     </table>
+                    <div class="the-price">
+                        <h1>
+                            $6.99<span class="subscript"></span></h1>
+                        <small>/month</small>
+                    </div>
                 </div>
                 <div class="panel-footer">
-                    <a href="http://www.jquery2dotnet.com" class="btn btn-success" role="button">Sign Up</a>
-                    1 month FREE trial</div>
+                	
+                    <a href="http://www.jquery2dotnet.com" class="btn btn-warning btn-block" role="button">Sign Up</a>
+                    15 Day Free Trial</div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-3">
-            <div class="panel panel-success">
+        <div class="col-xs-12 col-md-4">
+            <div class="panel panel-info">
                 <div class="cnrflash">
                     <div class="cnrflash-inner">
                         <span class="cnrflash-label">MOST
@@ -77,33 +73,33 @@
                 <div class="panel-body">
                     <div class="the-price">
                         <h1>
-                            $14.99<span class="subscript">/mo</span></h1>
-                        <small>1 month FREE trial</small>
+                            10<span class="subscript"></span></h1>
+                        <small>Sitemaps</small>
                     </div>
                     <table class="table">
                         <tr>
                             <td>
-                                2 Account
+                                10 Sitemaps
                             </td>
                         </tr>
                         <tr class="active">
                             <td>
-                                5 Project
+                                Gather Content
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                100K API Access
+                                Sharing
                             </td>
                         </tr>
                         <tr class="active">
                             <td>
-                                200MB Storage
+                                Export to PDF
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                Custom Cloud Services
+                                Custom Header Branding
                             </td>
                         </tr>
                         <tr class="active">
@@ -112,28 +108,33 @@
                             </td>
                         </tr>
                     </table>
+                    <div class="the-price">
+                        <h1>
+                            $14.99<span class="subscript"></span></h1>
+                        <small>/month</small>
+                    </div>
                 </div>
                 <div class="panel-footer">
-                    <a href="http://www.jquery2dotnet.com" class="btn btn-success" role="button">Sign Up</a>
-                    1 month FREE trial</div>
+                    <a href="http://www.jquery2dotnet.com" class="btn btn-warning btn-block" role="button">Sign Up</a>
+                    15 Day Free Trial</div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-3">
+        <div class="col-xs-12 col-md-4">
             <div class="panel panel-info">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        Gold</h3>
+                        Business</h3>
                 </div>
                 <div class="panel-body">
                     <div class="the-price">
                         <h1>
-                            $35<span class="subscript">/mo</span></h1>
-                        <small>1 month FREE trial</small>
+                            Unlimited<span class="subscript"></span></h1>
+                        <small>sitemaps</small>
                     </div>
                     <table class="table">
                         <tr>
                             <td>
-                                5 Account
+                                Unlimited Sitemaps
                             </td>
                         </tr>
                         <tr class="active">
@@ -162,14 +163,40 @@
                             </td>
                         </tr>
                     </table>
+                    <div class="the-price">
+                        <h1>
+                            $29.99<span class="subscript">/</span></h1>
+                        <small>/mo</small>
+                    </div>
                 </div>
                 <div class="panel-footer">
-                    <a href="http://www.jquery2dotnet.com" class="btn btn-success" role="button">Sign Up</a> 1 month FREE trial</div>
+                    <a href="http://www.jquery2dotnet.com" class="btn btn-warning btn-block" role="button">Start 15 Day Free Trial</a> 15 Day Free Trial</div>
             </div>
         </div>
     </div> <!-- end row -->
-
-
+    
+    <div class="row" id="bigCallout">
+			<div class="col-sm-6">
+				<div class="well">
+					<div class="page-header">
+						<h1>Free Plan</h1>
+					</div> <!-- end page-header -->
+					
+					<p class="lead">Some solid leading copy will help get your users engaged. Use this area to come up with something real nice. Know what I'm sayin?</p>
+					
+					<a href="#" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a>
+					<a href="#" class="btn btn-large btn-link">or a secondary link</a>
+				</div> <!-- end well -->
+			</div> <!-- end col-sm-6 -->
+			
+			<div class="col-sm-6">
+				
+				
+				
+				
+				
+			</div> <!-- end col-sm-6 -->
+		</div> <!-- end bigCallout -->
 	
 	
 	
