@@ -1,3 +1,34 @@
+
+
+<div class="row" id="row-last">
+	<div class="container">
+		<div class="col-12">
+			<h2>What users say</h2>
+		
+
+			<div class="col-sm-6">
+				<p>"We've used Writemaps for several years and it's saved us a lot of time. 
+                    Because it's online and simple for our clients to use, the process of putting 
+                    a sitemap together is much quicker, it's become 
+                    one of the essential tools in our website development process."</p>
+                   <span><h5>Matt M, Director</h5></span>
+                    <a href="http://www.practicepl.us" >
+                <img class="thumbnail" src="images/PP_logo_2012.png" align="right"></a>
+				
+			</div>
+				
+			<div class="col-sm-6">
+					<p>"I came across WriteMaps and used it within my team. I couldn't keep a great tool like this secret, and now our whole company uses it."</p>
+					<h5>Paul W, Online Marketing</h5>
+					<a href="http://www.urbanelement.com" >
+        	      <img class="thumbnail" src="images/ue-logo-06.png" align="right" ></a>
+			</div>
+				
+		</div> <!-- end col-12 -->
+	</div> <!-- end container -->
+</div> <!-- end row-last -->
+
+
 <!-- FOOTER -->
 	<footer>
 		<div class="container" >
@@ -71,22 +102,6 @@
 	<!-- Custom JS -->
 	<script src="includes/js/script.js"></script>
 
-
-
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js" type="text/javascript"></script> 
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-
-
-<script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
-<script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
-<script src="assets/js/jquery.scrollTo.min.js" type="text/javascript" ></script>
-<!-- PAGE CUSTOM SCROLLER -->
-<script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
 
 
 <script>

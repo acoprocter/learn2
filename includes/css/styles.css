@@ -79,6 +79,24 @@ footer a:hover {
 	padding: 75px 0 75px 0;
 }
 
+#title {
+	background:	#1dbb90;
+	text-align:left;
+	padding: 25px 0 25px 0;
+}
+
+#title>.container>div {
+		padding:0 20px;
+}
+
+#title h1 {
+	text-shadow:2px 2px 0px rgba(150, 150, 150, 0.65);
+	font-size:60px;
+	font-weight:900;
+	text-transform: uppercase;
+	color: #fff;
+}
+
 
 #row2 {
 	background:#FFF;
@@ -142,7 +160,10 @@ footer a:hover {
 	
 }
 
-
+.tabbable {
+	margin: 50px 0 70px 0;
+	
+}
 
 #myModal {
 	margin-top:60px;
@@ -156,11 +177,74 @@ footer a:hover {
 }
 
 
-.btn-purple {
-	color: #fff;
-	background-color: #B533C6;
-	border-color: #B533C6;
+.btn-custom-darken.active {
+  color: rgba(255, 255, 255, 0.75);
 }
+.btn-custom-darken {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #a62fb6;
+  /* -- 
+  background-image: -moz-linear-gradient(top, #b533c6, #90299d);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b533c6), to(#90299d));
+  background-image: -webkit-linear-gradient(top, #b533c6, #90299d);
+  background-image: -o-linear-gradient(top, #b533c6, #90299d);
+  background-image: linear-gradient(to bottom, #b533c6, #90299d);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb533c6', endColorstr='#ff90299d', GradientType=0);
+  */
+  border-color: #90299d #90299d #581961;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #90299d;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-custom-darken:hover, 
+.btn-custom-darken:focus,
+.btn-custom-darken:active,
+.btn-custom-darken.active,
+.btn-custom-darken.disabled,
+.btn-custom-darken[disabled] {
+  color: #ffffff;
+  background-color: #90299d;
+  *background-color: #7d2389;
+}
+.btn-custom-darken:active,
+.btn-custom-darken.active {
+  background-color: #6b1e75 ;
+}
+
+div#hero {
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+div#hero h1 {
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 35px;
+	line-height: 50px;
+	text-align: center;
+}
+
+div#hero h2 {
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+
+div#hero p {
+	margin: 15px 0;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+}
+
 
 
 /* --------------------------------------
@@ -238,7 +322,9 @@ footer a:hover {
 	
 }
 
-
+.table {
+	margin-bottom: 0px;
+}
 
 
 /* PRICING STYLES
@@ -287,7 +373,94 @@ footer a:hover {
     font-size: 25px;
 }
 
-/* CSS-only ribbon styles    */
+ul.centered-pills {
+ display: inline-block; 
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+    font-size: 1.2em;
+}
+
+
+	
+
+#tab1 {
+	padding-top: 20px;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+
+/* FAQ ACCORDIAN STYLES 
+ 
+ * 
+ * 
+ * 
+ * */
+
+
+.faq-cat-content {
+    margin-top: 25px;
+}
+
+.faq-cat-tabs li a {
+    padding: 15px 10px 15px 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+
+.nav-tabs li a:focus,
+.panel-heading a:focus {
+    outline: none;
+}
+
+.panel-heading a,
+.panel-heading a:hover,
+.panel-heading a:focus {
+    text-decoration: none;
+    color: #777777;
+}
+
+.faq-cat-content .panel-heading:hover {
+    background-color: #efefef;
+}
+
+.active-faq {
+    border-left: 5px solid #888888;
+}
+
+.panel-faq .panel-heading .panel-title span {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#faq {
+	padding: 10px;
+	text-align: left;
+}
+
+
+
+
+/* CSS-only ribbon styles
+ * 
+ * 
+ *     */
+
+
 .cnrflash
 {
     /*Position correctly within container*/

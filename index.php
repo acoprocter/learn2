@@ -19,6 +19,11 @@
 	
 </div> <!-- end row1 -->
 
+	<div class="row" >
+	<div id="hero">
+			<h1>Sign up in 60 seconds for a 15-day Free Trial</h1>
+	</div> <!-- end hero -->
+	</div> <!-- end row -->
 
 
 
@@ -116,33 +121,6 @@
 	
 		
 
-<div class="row" id="row-last">
-	<div class="container">
-		<div class="col-12">
-			<h2>What users say</h2>
-		
-
-			<div class="col-sm-6">
-				<p>"We've used Writemaps for several years and it's saved us a lot of time. 
-                    Because it's online and simple for our clients to use, the process of putting 
-                    a sitemap together is much quicker, it's become 
-                    one of the essential tools in our website development process."</p>
-                   <span><h5>Matt M, Director</h5></span>
-                    <a href="http://www.practicepl.us" >
-                <img class="thumbnail" src="images/PP_logo_2012.png" align="right"></a>
-				
-			</div>
-				
-			<div class="col-sm-6">
-					<p>"I came across WriteMaps and used it within my team. I couldn't keep a great tool like this secret, and now our whole company uses it."</p>
-					<h5>Paul W, Online Marketing</h5>
-					<a href="http://www.urbanelement.com" >
-        	      <img class="thumbnail" src="images/ue-logo-06.png" align="right" ></a>
-			</div>
-				
-		</div> <!-- end col-12 -->
-	</div> <!-- end container -->
-</div> <!-- end row-last -->
 
 <?php require_once 'footer.php'; ?>
       
