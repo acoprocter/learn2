@@ -8,11 +8,7 @@
 
 <div class="container" id="main">
 
-	<div class="row" >
-	<div id="hero">
-			<h1><span class="glyphicon glyphicon-dashboard"></span> Sign up in 60 seconds for a 15-day Free Trial</h1>
-	</div> <!-- end hero -->
-	</div> <!-- end row -->
+	
 	
 	
     <div class="container" id="myWizard">
@@ -50,6 +46,13 @@
       </div>
    </div>
 </div>
+	
+	
+	<div class="row" >
+	<div id="hero">
+			<h1><span class="glyphicon glyphicon-dashboard"></span> Sign up in 60 seconds for a 15-day Free Trial</h1>
+	</div> <!-- end hero -->
+	</div> <!-- end row -->
 	
 	
 	
