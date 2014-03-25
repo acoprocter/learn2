@@ -2,7 +2,7 @@
 
 ini_set("DISPLAY_ERRORS", "ON");
 
-$mysqli = new mysqli("localhost", "procter_learn2", "laern2", "world");
+$mysqli = new mysqli("localhost", "procter_learn2", "procter_learn2", "learn2");
 
 /* check connection */
 if (mysqli_connect_errno()) {
