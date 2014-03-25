@@ -12,7 +12,7 @@ if (mysqli_connect_errno()) {
 
 /* Insert rows */
 $result=$mysqli->query("SELECT * FROM pages");
-printf("Affected rows (INSERT): %d\n", $mysqli->affected_rows);
+
 
 $page=array();
 
@@ -21,8 +21,6 @@ while ($row = $result->fetch_assoc()) {
 	
 }
 
-print_r($page);
-exit;
 
 ?>
 
