@@ -88,11 +88,17 @@ exit;
       
      
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/">Home</a></li>
-        <li><a href="/features.php">Features</a></li>
-        <li><a href="/pricing.php">Pricing</a></li>
+      	<?php foreach($page as $p){ ?>
+      		
+			
+      
+        <li><a href="<?php echo $p["filename"]; ?>"><?php echo $p["name"]; ?></a></li>
+       
+
+        <?php } ?>
         <li><a data-toggle="modal" class="btn" href="#myModal" role="button">Log in</a></li>
 	</ul>
+	
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
