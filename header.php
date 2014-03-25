@@ -14,9 +14,16 @@ if (mysqli_connect_errno()) {
 $result=$mysqli->query("SELECT * FROM pages");
 printf("Affected rows (INSERT): %d\n", $mysqli->affected_rows);
 
+$page=array();
 
-print_r($result->fetch_assoc());
-exit();
+while ($row = $result->fetch_assoc()) {
+        $page[$row["name"]]=$row;
+	
+}
+
+print_r($page);
+exit;
+
 ?>
 
 <!DOCTYPE html>
