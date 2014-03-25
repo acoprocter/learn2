@@ -1,4 +1,23 @@
+<?php 
+ini_set("DISPLAY_ERRORS", "ON");
+$con=mysqli_connect("localhost","root","root");
+// Check connection
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to mysqli: " . mysqli_connect_error();
+  }
+mysqli_select_db('learn2', $con);
+
+// Create database
+$result = mysqli_query($con,"SELECT * FROM pages");
+print_r($result);
+exit();
+?>
+
 <!DOCTYPE html>
+
+
+
 
 <html>
 	<head>
