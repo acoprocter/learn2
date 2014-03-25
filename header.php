@@ -6,7 +6,7 @@ if (mysqli_connect_errno())
   {
   echo "Failed to connect to mysqli: " . mysqli_connect_error();
   }
-mysqli_select_db('learn2', $con);
+
 
 // Create database
 $result = mysqli_query($con,"SELECT * FROM pages");
