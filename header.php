@@ -11,7 +11,7 @@ if (mysqli_connect_errno()) {
 }
 
 /* Insert rows */
-$mysqli->query("SELECT * FROM pages");
+$result=$mysqli->query("SELECT * FROM pages");
 printf("Affected rows (INSERT): %d\n", $mysqli->affected_rows);
 
 
