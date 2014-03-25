@@ -1,16 +1,21 @@
 <?php 
+
 ini_set("DISPLAY_ERRORS", "ON");
-$con=mysqli_connect("localhost","procter_learn2","learn2");
-// Check connection
-if (mysqli_connect_errno())
-  {
-  echo "Failed to connect to mysqli: " . mysqli_connect_error();
-  }
+
+$mysqli = new mysqli("localhost", "procter_learn2", "laern2", "world");
+
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* Insert rows */
+$mysqli->query("SELECT * FROM pages");
+printf("Affected rows (INSERT): %d\n", $mysqli->affected_rows);
 
 
-// Create database
-$result = mysqli_query($con,"SELECT * FROM pages");
-print_r($result);
+print_r($result->fetch_assoc());
 exit();
 ?>
 
