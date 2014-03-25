@@ -1,6 +1,6 @@
 <?php 
 ini_set("DISPLAY_ERRORS", "ON");
-$con=mysqli_connect("localhost","root","root");
+$con=mysqli_connect("localhost","procter_learn2","learn2");
 // Check connection
 if (mysqli_connect_errno())
   {
