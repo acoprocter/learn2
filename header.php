@@ -62,14 +62,9 @@
       
      
       <ul class="nav navbar-nav navbar-right">
-      	<?php foreach($page as $p){ ?>
-      		
-			
-      
-        <li><a href="<?php echo $p["filename"]; ?>"><?php echo $p["name"]; ?></a></li>
-       
-
-        <?php } ?>
+        <li><a href="/index.php">Home</a></li>
+        <li><a href="/features.php"]; ?>Features</a></li>
+        <li><a href="/pricing.php">Pricing</a></li>
         <li><a data-toggle="modal" class="btn" href="#myModal" role="button">Log in</a></li>
 	</ul>
 	
